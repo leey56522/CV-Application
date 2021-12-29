@@ -1,0 +1,32 @@
+.EditField {
+    margin-top: 10px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.FieldTitle {
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.btnContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.submitBtn {
+    font-weight: 700;
+    padding: 5px 10px;
+}
+
+.section {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
