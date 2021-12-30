@@ -9,6 +9,10 @@ class EditField extends Component {
         super(props);
       }
 
+    printPage() {
+        window.print();
+    }
+
     render() {
         return(
            <div className="EditField">
@@ -16,9 +20,6 @@ class EditField extends Component {
                     <h1 className="FieldTitle">General Information</h1>
                     <form className="InputField field">
                         <GeneralInfo />
-                        <div className="btnContainer">
-                            <button type="submit" className="submitBtn">Save</button>
-                        </div>
                     </form>
                 </div>
 
@@ -26,9 +27,6 @@ class EditField extends Component {
                     <h1 className="FieldTitle">Educational Experience</h1>
                     <form className="InputField field">
                         <EduInfo />
-                        <div className="btnContainer">
-                            <button type="submit" className="submitBtn">Save</button>
-                        </div>
                     </form>
                 </div>
 
@@ -36,11 +34,9 @@ class EditField extends Component {
                     <h1 className="FieldTitle">Work Experience</h1>
                     <form className="InputField field">
                         <WorkInfo />
-                        <div className="btnContainer">
-                            <button type="submit" className="submitBtn">Save</button>
-                        </div>
                     </form>
                 </div>
+                <button className="printBtn" onClick={this.printPage}>Print Your CV</button>
            </div>
         );
     }

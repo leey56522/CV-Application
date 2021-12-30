@@ -3,3 +3,17 @@
     flex-direction: column;
     align-items: center;
 }
+
+.btnContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.submitBtn {
+    font-weight: 700;
+    padding: 5px 10px;
+}
+
+.general .questions {
+    /* display: none; */
+}

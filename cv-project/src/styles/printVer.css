@@ -1,0 +1,19 @@
+.generalCont {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.infoCont {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5;
+}
+
+.editBtn {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    font-weight: 700;
+    padding: 5px 10px;
+}

@@ -15,18 +15,12 @@
     text-align: center;
 }
 
-.btnContainer {
-    display: flex;
-    justify-content: center;
-}
-
-.submitBtn {
-    font-weight: 700;
-    padding: 5px 10px;
-}
-
 .section {
     width: 100%;
     margin-bottom: 50px;
 }
 
+.printBtn {
+    font-weight: 700;
+    padding: 10px 15px;
+}
